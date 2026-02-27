@@ -11,7 +11,7 @@ this module creates EC2 instance in AWS.
 * tags - (Optional) map type, user can provide the tags they want to have.
 
 
-##Outputs
+## Outputs
 
 * instance_id - ID of the instance created
 * public_ip - Public IP of the instance created
