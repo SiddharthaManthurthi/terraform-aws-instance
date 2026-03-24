@@ -1,26 +1,24 @@
 variable "project" {
-    type = string  
+    type = string
 }
 
 variable "environment" {
-    type = string  
+    type = string
 }
 
 variable "ami_id" {
-    type = string  
+    type = string
 }
 
 variable "instance_type" {
     default = "t3.micro"
-
 }
 
 variable "sg_ids" {
     type = list(string)
-  
 }
 
-#empty, mean optional
+# Empty, means optional
 variable "tags" {
     type = map
     default = {}
